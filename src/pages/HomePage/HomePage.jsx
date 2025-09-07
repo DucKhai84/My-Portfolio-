@@ -18,21 +18,17 @@ export default function HomePage() {
 
                 <div className="my-3 ">
                     <ul className={`d-flex my-3 ${styles.social_lists}`}>
-                        <li className={`${styles.social_items}`}>
-                            <a href="" style={{ color: '#333' }}>
-                                <i style={{ fontSize: '24px' }} className="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li className={`mx-4 ${styles.social_items}`}>
-                            <a href="" style={{ color: '#333' }}>
-                                <i style={{ fontSize: '24px' }} className="fa-brands fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li className={`${styles.social_items}`}>
-                            <a href="" style={{ color: '#333' }}>
-                                <i style={{ fontSize: '24px' }} className="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </li>
+                        <a href="" style={{ color: '#333' }} className={`${styles.social_items}`}>
+                            <i style={{ fontSize: '24px' }} className="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="" style={{ color: '#333' }} className={`mx-4 ${styles.social_items}`}>
+                            <i style={{ fontSize: '24px' }} className="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="" style={{ color: '#333' }} className={`${styles.social_items}`}>
+                            <i style={{ fontSize: '24px' }} className="fa-brands fa-linkedin-in"></i>
+                        </a>
                     </ul>
                 </div>
 

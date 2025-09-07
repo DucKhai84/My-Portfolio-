@@ -10,21 +10,14 @@ export default function Header() {
                         <Link to="/" className={`${styles.headerName}`}>Portfolio</Link>
                     </div>
                     <ul className={`d-flex justify-content-center align-items-center ${styles.navbarLists}`}>
-                        <li className={`mx-2 ${styles.navbarItems}`}>
+                        <Link className={`mx-2 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/">Home</Link>
+                        {/* <li className={`mx-2 ${styles.navbarItems}`}>
                             <Link className={styles.navbarItems_link} to="/">Home</Link>
-                        </li>
-                        <li className={`mx-2 ${styles.navbarItems}`}>
-                            <Link className={styles.navbarItems_link} to="/about">About</Link>
-                        </li>
-                        <li className={`mx-2 ${styles.navbarItems}`}>
-                            <Link className={styles.navbarItems_link} to="/skill">Skills</Link>
-                        </li>
-                        <li className={`mx-2 ${styles.navbarItems}`}>
-                            <Link className={styles.navbarItems_link} to="/project">Project</Link>
-                        </li>
-                        <li className={`mx-2 ${styles.navbarItems}`}>
-                            <Link className={styles.navbarItems_link} to="/blog">Blog</Link>
-                        </li>
+                        </li> */}
+                        <Link className={`mx-2 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/about">About</Link>
+                        <Link className={`mx-2 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/skill">Skills</Link>
+                        <Link className={`mx-2 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/project">Projects</Link>
+                        <Link className={`mx-2 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/blog">Blogs</Link>
                     </ul>
                 </nav>
             </div>

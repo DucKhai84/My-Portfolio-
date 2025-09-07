@@ -8,11 +8,13 @@
 
 header {
   background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); 
 }
 
 [data-theme="dark"] header {
-  background: linear-gradient(135deg, #1a1a1a, #2d2d2d, #404040);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: #1a1a1a;
+  /* background: linear-gradient(135deg, #1a1a1a, #2d2d2d, #404040); */
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); */
 }
 
 body {
