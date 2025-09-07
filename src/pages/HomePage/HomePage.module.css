@@ -21,11 +21,13 @@
 }
 
 .logo{
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     animation: spin 15s linear infinite;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0 6px 12px 8px #3b82f6,
+            0 8px 20px 12px #1e3a8a;
     transition: all 0.3s ease;
 }
 
@@ -47,7 +49,8 @@
 }
 
 [data-theme="dark"] .social_items{
-    box-shadow: 0 4px 4px 2px #1e3a8a;
+     box-shadow: 0 3px 8px 2px #3b82f6,
+            0 3px 8px 2px #1e3a8a;
 }
 
 .social_items:hover {
@@ -68,7 +71,8 @@
 }
 
 [data-theme="dark"] .button_downloadCV{
-    box-shadow: 0 4px 4px 2px #1e3a8a;
+    box-shadow: 0 3px 8px 2px #3b82f6,
+            0 3px 8px 2px #1e3a8a;
 }
 
 .button_downloadCV:hover{
