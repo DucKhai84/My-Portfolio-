@@ -25,13 +25,6 @@ export default function Header() {
                         <li className={`mx-2 ${styles.navbarItems}`}>
                             <Link className={styles.navbarItems_link} to="/blog">Blog</Link>
                         </li>
-                        {/* <li onClick={onToggle} className={`mx-2 } ${styles.navbarItems}`}>
-                            {!theme ? (
-                                <FaMoon className={`${styles.themeToggle}`} color="#6c757d" size={20} /> 
-                            ) : (
-                                <FaSun className={`${styles.themeToggle}`} color="#FFD700" size={20} /> 
-                            )}
-                        </li> */}
                     </ul>
                 </nav>
             </div>
