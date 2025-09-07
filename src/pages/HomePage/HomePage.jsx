@@ -7,7 +7,7 @@ export default function HomePage() {
                 <div className="my-3">
                     <span style={{ fontSize: '30px', fontWeight: '700' }} className={`mt-3 d-flex justify-content-left`}>Hello, It's Me</span>
                     <span style={{ fontSize: '45px', fontWeight: '800' }} className={`d-block d-flex justify-content-left`}>Duc Khai</span>
-                    <span style={{ fontSize: '30 px', fontWeight: '700' }} className={`d-block pb-1 d-flex justify-content-left `}>And I'm a <span style={{ marginLeft: '7px' }}>Backend Developer</span></span>
+                    <span style={{ fontSize: '30px', fontWeight: '700' }} className={`d-block pb-1 d-flex justify-content-left align-items-center`}>And I'm a <span style={{ marginLeft: '7px', fontWeight: '800', fontSize:'32px' }} className={`${styles.titleBE}`}>Backend Developer</span></span>
                 </div>
 
                 <div className="my-3">
@@ -40,7 +40,7 @@ export default function HomePage() {
                     <a href="/assets/CV/CV.pdf" download className={`d-inline-block text-align-left ${styles.button_downloadCV}`}>Download CV</a>
                 </div>
             </div>
-            <div className={`col-6`}>
+            <div className={`col-6 d-flex align-items-center justify-content-center`}>
                 <img src={ChibiPicture} alt="ReactJS Logo" className={`${styles.logo}`} />
             </div>
         </div>
