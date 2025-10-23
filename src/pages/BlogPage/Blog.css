@@ -1,0 +1,158 @@
+/* Blog Page Styles */
+
+.blog-page {
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.blog-container {
+  margin: 0 auto;
+}
+
+.blog-header {
+ text-align: center;
+  margin-bottom: 4rem;
+  animation: slideDown 0.6s ease-out;
+}
+
+.blog-header h1 {
+    color: #1a1a1a;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+}
+
+.blog-header .subtitle {
+  font-size: 1.25rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.blog-header .lead {
+  font-size: 1.25rem;
+  color: #7f8c8d;
+}
+
+.blog-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.blog-image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: #ecf0f1;
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.blog-card-hover:hover .blog-image {
+  transform: scale(1.05);
+}
+
+.blog-badge {
+  font-weight: 600;
+  background-color: rgb(250, 249, 191);
+  border: 1px solid rgb(211, 208, 11);
+  font-size: 0.75rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+.card-title{
+
+  min-height: 80px;
+}
+
+.card-text{
+  min-height: 150px;
+  text-align: justify;
+  padding: 0 16px;
+}
+
+.blog-title {
+  color: #2c3e50;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.blog-link {
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.blog-link:hover {
+  color: #2980b9 !important;
+  text-decoration: underline !important;
+}
+
+.blog-card .card-body {
+  padding: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-header h1 {
+    font-size: 2rem;
+  }
+
+  .blog-header .lead {
+    font-size: 1rem;
+  }
+
+  .blog-image-container {
+    height: 150px;
+  }
+
+  .blog-title {
+    font-size: 1rem;
+  }
+}
+
+.blog-button{
+  text-decoration: none;
+  color: #000;
+  border: none;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background-color:rgb(244, 232, 252);
+  border: 1px solid rgb(214, 163, 248);
+  transition: all 0.2s ease-in-out;
+}
+
+.blog-button:hover{
+  filter: blur(.5px);
+}

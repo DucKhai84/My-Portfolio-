@@ -5,9 +5,9 @@ import styles from "./MainLayout.module.css"
 
 export default function MainLayout({children}){
     return(
-       <div>
+       <div className="h-100">
         <Header/>
-        <main className={`container my-3 ${styles.main_wrap}`}>
+        <main className={`container d-flex align-items-center justify-content-center ${styles.main_wrap}`}>
             {children}
         </main>
        </div>

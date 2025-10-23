@@ -1,0 +1,248 @@
+/* Blog Post Article Styles */
+
+/* Root Variables */
+:root {
+  --background: #ffffff;
+  --foreground: #252525;
+  --foreground-secondary: #555555;
+  --border: #eaeaea;
+  --primary: #3490dc;
+  --primary-light: #e0f2ff;
+  --muted: #f7f7f7;
+  --muted-light: #fafafa;
+  --muted-hover: #eaeaea;
+  --accent: #f0f0f0;
+  --accent-foreground: #252525;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --radius: 0.625rem;
+}
+
+/* Article Container */
+.article {
+  min-height: 100vh;
+  background-color: var(--background);
+  font-family: Arial, sans-serif;
+}
+
+.backLink{
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  background-color: rgb(244, 232, 252);
+  border: 1px solid rgb(214, 163, 248);
+}
+
+/* Header Navigation */
+.headerNav {
+  border-bottom: 1px solid var(--border);
+}
+
+.navContainer {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--foreground-secondary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: var(--foreground);
+}
+
+.metadataIcon {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Hero Image */
+.heroImage {
+  border-radius: 12px;
+  width: 100%;
+  height: 24rem;
+  overflow: hidden;
+}
+
+.codeSnipet{
+  width: 100%;
+}
+
+.heroImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content Container */
+.contentContainer {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.categoryBadge {
+  display: inline-block;
+  background-color: rgb(250, 249, 191);
+  border: 1px solid rgb(211, 208, 11);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+.slogan {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+.description {
+  font-size: 1.25rem;
+  color: var(--foreground-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+/* Metadata Section */
+.metadata {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.875rem;
+  color: var(--foreground-secondary);
+}
+
+.metadataItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.metadataItem span {
+  font-weight: 500;
+}
+
+/* Article Body */
+.articleBody {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.articleBodyText {
+  color: var(--foreground-secondary);
+  text-align: justify;
+  line-height: 1.75;
+  font-size: 1.125rem;
+}
+
+/* Tags Section */
+.tagsSection {
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.tagsLabel {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--foreground-secondary);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tagsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tagItem {
+  display: inline-block;
+  background-color: rgba(218, 255, 219, 1);
+  border: 1px solid rgba(118, 252, 123, 1);
+  color: var(--foreground-secondary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-radius: 18px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.tagItem:hover {
+  background-color: var(--muted-hover);
+  color: var(--foreground);
+}
+
+/* Author Section */
+.authorSection {
+  background-color: var(--muted-light);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-top: 4rem;
+}
+
+.authorContainer {
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.authorContent {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.authorAvatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 9999px;
+  background-color: var(--primary-light);
+  flex-shrink: 0;
+}
+
+.authorInfo h3 {
+  font-weight: 600;
+  color: var(--foreground);
+  margin-bottom: 0.25rem;
+}
+
+.authorBio {
+  font-size: 0.875rem;
+  color: var(--foreground-secondary);
+}

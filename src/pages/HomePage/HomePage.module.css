@@ -1,3 +1,18 @@
+.home_page {
+    min-height: 100vh;
+    padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_container {
+    max-width: 1000px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .title_backend {
     font-size: 45px;
     font-weight: 800;
@@ -7,31 +22,56 @@
     background-clip: text;
 }
 
-.titleBE{
-    color: #333;
+.titleName {
+    color: #000;
 }
 
-[data-theme="dark"] .titleBE{
+.titleBE {
+    background: linear-gradient(270deg, #8a2be2, #8000ff, #00bfff);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    animation: gradientMove 8s ease infinite;
+    transition: all .3s ease;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+[data-theme="dark"] .titleBE {
     color: #2f5cd8ff;
 }
 
-.subtitle{
+.subtitle {
     text-align: justify;
     font-weight: 500;
 }
 
-.logo{
+.logo {
     width: 450px;
     height: 450px;
     animation: spin 15s linear infinite;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 6px 12px 8px #3b82f6,
-            0 8px 20px 12px #1e3a8a;
+    box-shadow: 0 6px 12px 8px #667eea,
+        0 8px 20px 12px #764ba2;
     transition: all 0.3s ease;
 }
 
-.social_lists{
+.social_lists {
     list-style: none;
     padding: 0;
     margin: 15px x 0 -8px 0;
@@ -40,49 +80,90 @@
 .social_items {
     padding: 8px;
     border-radius: 50%;
-    box-shadow: 0 4px 4px 2px rgba(0, 0, 0, .7);
-    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, transparent 100%);
-    background-size: 100% 0%;         /* ban đầu chưa thấy màu */
+    background-size: 100% 0%;
+    /* ban đầu chưa thấy màu */
     background-repeat: no-repeat;
     background-position: top;
     transition: background-size 0.5s ease-in-out;
 }
 
-[data-theme="dark"] .social_items{
-     box-shadow: 0 3px 8px 2px #3b82f6,
-            0 3px 8px 2px #1e3a8a;
+.social_items i {
+    color: rgba(0, 0, 0, .7);
 }
 
-.social_items:hover {
+[data-theme="dark"] .social_items {
+    box-shadow: 0 3px 8px 2px #3b82f6,
+        0 3px 8px 2px #1e3a8a;
+}
+
+.social_items_fb i:hover {
     background-size: 100% 100%;
     transform: scale(1.1);
+    color: #3b82f6;
 }
 
-.button_downloadCV{
-    color: #333;
-    max-width: 240px;
+.social_items_ig i:hover {
+    background-size: 100% 100%;
+    transform: scale(1.1);
+    color: rgb(214, 51, 51);
+}
+
+.social_items_linke i:hover {
+    background-size: 100% 100%;
+    transform: scale(1.1);
+    color: #3b82f6;
+
+}
+
+.social_items_mail i:hover {
+    background-size: 100% 100%;
+    transform: scale(1.1);
+    color: rgb(214, 51, 51);
+}
+
+.button_downloadCV {
+    margin-right: 12px;
+    color: hsl(0, 0%, 20%);
+    max-width: 150px;
     width: 100%;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: none;
     padding: 10px 16px;
-    box-shadow: 0 4px 4px 2px rgba( 0, 0, 0, .7);
-    border-radius: 24px;
+    border-radius: 8px;
+    background-color: rgb(231, 220, 220);
     transition: all 0.3s ease-in-out;
 }
 
-[data-theme="dark"] .button_downloadCV{
-    box-shadow: 0 3px 8px 2px #3b82f6,
-            0 3px 8px 2px #1e3a8a;
+.button_viewProject {
+    margin-right: 12px;
+    color: #000;
+    /* background-color: rgba(147, 51, 234 , .1); */
+    max-width: 180px;
+    width: 100%;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    transition: all 0.3s ease-in-out;
 }
 
-.button_downloadCV:hover{
+[data-theme="dark"] .button_downloadCV {
+    box-shadow: 0 3px 8px 2px #3b82f6,
+        0 3px 8px 2px #1e3a8a;
+}
+
+.button_downloadCV:hover {
     transform: scale(1.01);
     filter: blur(.5px);
-    box-shadow: 0 4px 4px 2px #1a3fac;
+
 }
 
+.button_viewProject:hover {
+    filter: blur(.5px);
+    transform: scale(1.01);
 
-
+}
 
 
 /* @keyframes spin {
