@@ -26,7 +26,7 @@ export default function HomePage() {
                             <Link className={`d-inline-block text-align-left ${styles.button_viewProject}`} to="/about">
                             <i class="fa-solid fa-eye me-2"></i>
                             Khám phá</Link>
-                            <a href="/assets/CV/CV.pdf" download className={`d-inline-block text-align-left ${styles.button_downloadCV}`}>
+                            <a href="/assets/CV/CV_HoTruongDucKhai.pdf" download className={`d-inline-block text-align-left ${styles.button_downloadCV}`}>
                             <i class="fa-solid fa-download me-2"></i>
                             Resume</a>
 
