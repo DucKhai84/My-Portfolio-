@@ -68,7 +68,7 @@ export default function SkillsSection() {
                 <div className="p-6 rounded-lg shadow-lg hover:shadow-xl bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm h-full">
 
                   <div className="d-flex justify-content-center py-4 ">
-                    <span style={{ backgroundColor: 'rgba(250, 208, 208, 1)', border: '1px solid rgba(243, 95, 95, 1)', borderRadius: '50%' }} className="d-flex align-items-center px-2 me-2">
+                    <span style={{  backgroundColor: 'rgb(250, 249, 191)', border: '1px solid rgb(211, 208, 11)', borderRadius: '50%' }} className="d-flex align-items-center px-2 me-2">
                       <span style={{ fontSize: '12px', fontWeight: '600' }} className="d-flex align-item-center">
                         DEV
                       </span>
@@ -143,7 +143,7 @@ export default function SkillsSection() {
             <div className="p-6 rounded-lg shadow-lg hover:shadow-xl bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm h-full">
 
               <div className="d-flex justify-content-center py-4 ">
-                <span style={{ backgroundColor: 'rgba(218, 255, 219, 1)', border: '1px solid rgba(118, 252, 123, 1)', borderRadius: '50%' }} className="d-flex align-items-center px-2 me-2">
+                <span style={{ backgroundColor: 'rgb(250, 249, 191)', border: '1px solid rgb(211, 208, 11)', borderRadius: '50%' }} className="d-flex align-items-center px-2 me-2">
                   <span style={{ fontSize: '12px', fontWeight: '600' }} className="d-flex align-item-center">
                     OPS
                   </span>

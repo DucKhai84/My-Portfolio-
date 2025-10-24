@@ -47,7 +47,7 @@ export default function HomePage() {
                                     <i style={{ fontSize: '24px' }} className="fa-brands fa-linkedin-in"></i>
                                 </a>
 
-                                <a href="" style={{ color: '#333' }} className={`${styles.social_items} ${styles.social_items_mail}`}>
+                                <a href="mailto:duckhai84.it@gmail.com" style={{ color: '#333' }} className={`${styles.social_items} ${styles.social_items_mail}`}>
                                     <i style={{ fontSize: '24px' }} className="fa-solid fa-envelope"></i>
                                 </a>
                             </ul>
