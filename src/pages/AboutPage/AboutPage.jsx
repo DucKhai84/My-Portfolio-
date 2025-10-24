@@ -26,10 +26,10 @@ export default function About() {
               Mình là một Backend Developer đầy đam mê, hiện đang là năm cuối tại Đại học Công nghệ TP.HCM, Khoa Công nghệ lập trình. Mình chuyên về phát triển backend với NodeJS và frontend hiện đại với React.
             </p>
             <p className="card-text">
-             Hành trình với công nghệ của mình bắt đầu từ sự tò mò về cách mọi thứ hoạt động, và dần phát triển thành một sự nghiệp gắn bó với việc giải quyết các vấn đề phức tạp và tạo ra các giải pháp tinh tế.
+              Hành trình với công nghệ của mình bắt đầu từ sự tò mò về cách mọi thứ hoạt động, và dần phát triển thành một sự nghiệp gắn bó với việc giải quyết các vấn đề phức tạp và tạo ra các giải pháp tinh tế.
             </p>
             <p className="card-text">
-              Khi không lập trình, bạn có thể tìm thấy mình đóng góp vào các dự án mã nguồn mở, viết blog kỹ thuật, hoặc khám phá các công nghệ mới.
+              Khi không lập trình, bạn có thể tìm thấy mình đang tìm hiểu về các thiết bị điện tử mới, hoặc khám phá các công nghệ mới.
             </p>
           </AnimatedSection>
 

@@ -1,8 +1,9 @@
-import React from "react";
+
 import { Card, Row, Col } from "react-bootstrap";
 import CertificateJavaE2 from "../../assets/images/javascript-essentials-2.png";
-import CertificateProgram from "../../assets/images/certificate-907.png"
-import CertificateFisrtWebsite from "../../assets/images/chungnhan_107025.png"
+import CertificateJavaE1 from "../../assets/images/javascript-essentials-1.png";
+import CertificateFisrtWebsite from "../../assets/images/chungnhan_107025.png";
+import CertificateNetworking from "../../assets/images/networking-basics.png";
 import AnimatedSection from "../animated-section";
 import styles from "../css/Certificate.module.css";
 
@@ -10,22 +11,22 @@ export default function CertificateSection() {
 
   const certificates = [
     {
-      title: "IT Competition",
+      title: "My Fisrt Website",
       org: "Hutech",
       date: "October 2023",
-      img: CertificateJavaE2,
+      img: CertificateFisrtWebsite,
     },
     {
       title: "Networking Basic",
       org: "Hutech",
       date: "September 2025",
-      img: CertificateJavaE2,
+      img: CertificateNetworking,
     },
     {
       title: "JavaScript Basic",
       org: "Hutech",
       date: "September 2025",
-      img: CertificateJavaE2,
+      img: CertificateJavaE1,
     },
     {
       title: "JavaScript Intermediate",

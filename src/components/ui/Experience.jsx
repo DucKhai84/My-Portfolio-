@@ -16,12 +16,12 @@ export default function ExperienceSection() {
                             </div>
                             <small className="text-muted">April 2024</small>
                         </div>
-                        <ul className="mb-0 ps-3"> 
+                        <ul className="mb-0 ps-3">
                             <li>
-                                Worked with team members to implement and enhance features on an e-commerce website built with WordPress.
+                                Làm việc cùng các thành viên trong nhóm để triển khai và cải thiện các tính năng trên một trang web thương mại điện tử được xây dựng bằng WordPress.
                             </li>
                         </ul>
-                        
+
                     </Card.Body>
                 </Card>
             </AnimatedSection>
@@ -39,7 +39,7 @@ export default function ExperienceSection() {
                         </div>
                         <ul className="mb-0 ps-3">
                             <li>
-                                Applying data structures and algorithms to efficiently solve programming challenges.
+                                Áp dụng các cấu trúc dữ liệu và thuật toán để giải quyết hiệu quả các bài toán lập trình.
                             </li>
                         </ul>
                     </Card.Body>
@@ -59,7 +59,7 @@ export default function ExperienceSection() {
                         </div>
                         <ul className="mb-0 ps-3">
                             <li>
-                                Gained practical knowledge of IP usage mechanisms and socket programming for network applications.
+                                Đã tích lũy kiến thức thực tiễn về cơ chế sử dụng địa chỉ IP và lập trình socket cho các ứng dụng mạng.
                             </li>
                         </ul>
                     </Card.Body>
@@ -81,7 +81,7 @@ export default function ExperienceSection() {
                         </div>
                         <ul className="mb-0 ps-3">
                             <li>
-                                Strengthened core JavaScript skills and advanced proficiency in essential concepts.
+                                Củng cố các kỹ năng JavaScript cốt lõi và nâng cao trình độ thành thạo các khái niệm quan trọng.
                             </li>
                         </ul>
                     </Card.Body>
@@ -103,7 +103,7 @@ export default function ExperienceSection() {
                         </div>
                         <ul className="mb-0 ps-3">
                             <li>
-                                Enhanced understanding of loops and advanced JavaScript techniques for practical coding.
+                                Nâng cao hiểu biết về vòng lặp và các kỹ thuật JavaScript nâng cao trong lập trình thực tế.
                             </li>
                         </ul>
                     </Card.Body>

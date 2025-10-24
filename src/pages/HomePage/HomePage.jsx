@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ChibiPicture from "../../assets/images/chibiPicture.png";
+import ChibiPicture from "../../assets/images/anhcanhan.jpg";
 import AnimatedSection from "../../components/animated-section"
 import styles from "./HomePage.module.css";
 export default function HomePage() {

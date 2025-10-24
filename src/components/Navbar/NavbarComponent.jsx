@@ -10,11 +10,11 @@ export default function Header() {
                         <Link to="/" className={`${styles.headerName}`}>Portfolio</Link>
                     </div>
                     <ul className={`d-flex justify-content-center align-items-center ${styles.navbarLists}`}>
-                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/">Home</Link>
-                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/about">About</Link>
-                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/skill">Skills</Link>
-                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/project">Projects</Link>
-                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/blog">Blogs</Link>
+                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/">Trang chủ</Link>
+                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/about">Giới thiệu</Link>
+                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/skill">Kỹ năng</Link>
+                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/project">Dự án</Link>
+                        <Link className={`mx-3 ${styles.navbarItems} ${styles.navbarItems_link}`} to="/blog">Bài viết</Link>
                     </ul>
                 </nav>
             </div>
