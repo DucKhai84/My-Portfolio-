@@ -14,7 +14,7 @@ export default function About() {
         {/* Header */}
         <div className="about-header">
           <h1>Giới thiệu</h1>
-          <p className="subtitle">Backend - DevOps Developer</p>
+          <p className="subtitle">Backend</p>
         </div>
 
         {/* Content Grid */}

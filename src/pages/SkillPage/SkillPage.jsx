@@ -57,7 +57,7 @@ export default function SkillsSection() {
 
         <AnimatedSection delay={0.2} className="skill-header">
           <h1>Kỹ năng chuyên môn</h1>
-          <p className="subtitle">Backend - DevOps Developer</p>
+          <p className="subtitle">Backend</p>
         </AnimatedSection>
 
         <div className="">
