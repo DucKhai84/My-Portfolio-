@@ -11,7 +11,7 @@ export default function CertificateSection() {
 
   const certificates = [
     {
-      title: "My Fisrt Website",
+      title: "My First Website",
       org: "Hutech",
       date: "October 2023",
       img: CertificateFisrtWebsite,
